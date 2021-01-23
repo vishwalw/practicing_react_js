@@ -2,6 +2,7 @@ import Booklist from "./Components/Booklist";
 import Handleevent from "./Components/Handleevent";
 import Helloworld from "./Components/Helloworld";
 import Navbar from "./Components/Navbar";
+import ThemeToggle from "./Components/themeToggle";
 import Use_effect from "./Components/Use_effect";
 import ThemeContextProvider from "./context/Themecontext";
 import Use_state from "./Use_state";
@@ -17,6 +18,7 @@ function App() {
       <ThemeContextProvider>
         <Navbar />
         <Booklist />
+        <ThemeToggle />
       </ThemeContextProvider>
     </div>
   );
