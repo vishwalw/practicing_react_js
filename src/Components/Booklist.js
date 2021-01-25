@@ -6,7 +6,6 @@ export class Booklist extends Component {
   render() {
     const { isLightTheme, light, dark } = this.context;
     const theme = isLightTheme ? light : dark;
-    console.log({ theme });
     return (
       <div
         style={{

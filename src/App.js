@@ -6,22 +6,33 @@ import ThemeToggle from "./Components/themeToggle";
 import Use_effect from "./Components/Use_effect";
 import ThemeContextProvider from "./context/Themecontext";
 import Use_state from "./Use_state";
+import Spacex from "./Components/Spacex";
+import Form from "./Components/Form";
+import { ApolloConsumer } from "@apollo/client";
 
 function App() {
   return (
+    // <ApolloConsumer>
+    //   {(client) => {
+    //     console.log(client);
+    //     return (
     <div className="App">
-      <Helloworld message="xyz" />
+      {/* <Helloworld message="xyz" /> */}
       {/* <FunctionalComponent /> */}
       {/* <Handleevent />
       <Use_state />
       <Use_effect /> */}
-      <ThemeContextProvider>
+      {/* <ThemeContextProvider>
         <Navbar />
         <Booklist />
         <ThemeToggle />
-      </ThemeContextProvider>
+      </ThemeContextProvider> */}
+      <Spacex />
+      <Form></Form>
     </div>
   );
+  //   }}
+  // </ApolloConsumer>
 }
 
 export default App;
