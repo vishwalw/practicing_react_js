@@ -7,6 +7,7 @@ function Use_effect() {
   });
   return (
     <div>
+      <p>Click and look at document title</p>
       <button onClick={() => setCounter(counter + 1)}>click {counter}</button>
     </div>
   );

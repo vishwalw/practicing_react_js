@@ -4,7 +4,7 @@ function Use_state() {
   const [counter, setCounter] = useState(0);
   return (
     <div>
-      <h2>counter value is: {counter}</h2>
+      <h3>counter value is: {counter}</h3>
       <button onClick={() => setCounter(counter + 1)}>increament</button>
     </div>
   );
